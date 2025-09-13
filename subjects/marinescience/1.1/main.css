@@ -1,0 +1,44 @@
+/* Style for the full-screen Three.js canvas */
+canvas {
+    position: fixed; /* Ensures it stays in the viewport */
+    top: 0;
+    left: 0;
+    width: 100vw; /* Fills the viewport width */
+    height: 100vh; /* Fills the viewport height */
+    z-index: -1; /* Pushes it to the background so other content is visible */
+}
+
+/* Style for a centered container on top of the canvas */
+.centered-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Ensures it's in front of the canvas */
+}
+
+/* Your nav style */
+nav {
+    z-index: 9999999999;
+}
+
+a {
+    background-color: antiquewhite;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+}
+
+#playback {
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 95%;
+    right:50%;
+    transform: translate(50%, -50%);
+
+    
+}

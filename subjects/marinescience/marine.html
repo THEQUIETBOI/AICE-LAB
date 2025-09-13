@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <title>Subjects</title>
+    <style>
+        body {
+            background-color: aqua;
+            font-family: sans-serif;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        #subjects {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            padding: 20px 40px;
+            max-width: 800px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #0077b6;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 15px;
+        }
+
+        li:last-child {
+            border-bottom: none;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            color: #0096c7;
+            margin: 0 0 10px 0;
+        }
+        
+        .button-column {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        a {
+            background-color: #0077b6;
+            color: white;
+            border: none;
+            border-radius: 5px;
+
+            padding: 10px 15px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        button:hover {
+            background-color: #0096c7;
+        }
+    </style>
+</head>
+<body>
+<div id="subjects">
+    <h1>Marine Science Subjects</h1>
+    <a href="#" id="Marine" style="display: none;">
+        <img src="https://placehold.co/400x250/0077b6/ffffff?text=TURTLE" alt="A turtle icon" width="400px">
+        <h1 id="plow">Marine Science</h1>
+    </a>
+    <ul>
+        <li>
+            <h2>1 Water</h2>
+            <div class="button-column">
+                <a href="1.1/mains.html">1.1 Particle theory and bonding</a>
+                <a href="#">1.2 Solubility in water</a>
+                <a href="#">1.3 Density and pressure</a>
+            </div>
+        </li>
+        <li>
+            <h2>2 Earth processes</h2>
+            <div class="button-column">
+                <a href="#">2.1 Tectonic processes</a>
+                <a href="#">2.2 Weathering, erosion and sedimentation</a>
+                <a href="#">2.3 Tides and ocean currents</a>
+            </div>
+        </li>
+        <li>
+            <h2>3 Interactions in marine ecosystems</h2>
+            <div class="button-column">
+                <a href="#">3.1 Interactions</a>
+                <a href="#">3.2 Feeding relationships</a>
+                <a href="#">3.3 Nutrient cycles</a>
+            </div>
+        </li>
+        <li>
+            <h2>4 Classification and biodiversity</h2>
+            <div class="button-column">
+                <a href="#">4.1 The classification of marine organisms</a>
+                <a href="#">4.2 Key groups of marine organisms</a>
+                <a href="#">4.3 Biodiversity</a>
+                <a href="#">4.4 Populations and sampling techniques</a>
+            </div>
+        </li>
+        <li>
+            <h2>5 Examples of marine ecosystems</h2>
+            <div class="button-column">
+                <a href="#">5.1 The open ocean</a>
+                <a href="#">5.2 The tropical coral reef</a>
+                <a href="#">5.3 The rocky shore</a>
+                <a href="#">5.4 The sandy shore</a>
+                <a href="#">5.5 The mangrove forest</a>
+            </div>
+        </li>
+    </ul>
+</div>
+</body>
+</html>

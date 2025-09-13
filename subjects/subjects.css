@@ -1,0 +1,35 @@
+body {
+            background-color: aqua;
+            font-family: sans-serif; /* Added for better readability */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #subjects {
+            /* Added some basic styling for the container */
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            background-color: white;
+            padding: 20px;
+        }
+        
+        #plow {
+            /* This is the key change to center the text */
+            text-align: center;
+            margin: 10px 0 0 0; /* Adjust spacing */
+        }
+
+        #Marine {
+            text-align: center;
+            padding-top: 5px;
+            border: none;
+            display: flex;
+            align-items: center; /* Corrected to align-items */
+            flex-direction: column;
+            text-decoration: none; /* Removed underline from the link */
+            color: inherit; /* Inherit color */
+        }
