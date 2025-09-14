@@ -1,33 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css"> <!-- ✅ correct -->
+
+  <title>Document</title>
 </head>
 <body>
-    <script type="importmap">
-{
-  "imports": {
-    "three": "https://cdn.jsdelivr.net/npm/three@latest/build/three.module.js",
-    "three/addons/": "https://cdn.jsdelivr.net/npm/three@latest/examples/jsm/"
-  }
-}
-</script>
+  <script src="./m.js" type="module"></script>
 
-<nav>
-    <a href="/AICE-LAB/main.html">Explore</a>
-</nav>
-
-<script src="m.js" type="module"></script>
-<canvas></canvas>
-
-<diva id="playback">
-  <button><-</button>
-  <button id="play" style="display: none;">Play</button>
-  <button id="pause">Pause</button>
-<button>-></button>
-</div>
-</body>
+<script src="AICE-LAB/libraries/matter.js"></script></body>
 </html>
